@@ -1,0 +1,26 @@
+<form class="ui stacked segment form" action="/gallery/{{gallery.id}}/addArt" method="POST">
+  <div class="two fields">
+    <div class="field">
+      <label>Picture</label>
+      <input type="text" name="pic" autofocus required title = "Please include a valid image link"
+      placeholder="Link">
+    </div>
+    <div class="field">
+      <label>Title</label>
+      <input type="text" name="title" autofocus required title = "Please include a valid Title"
+      placeholder="Title">
+    </div>
+    <div class="field">
+      <label>Artist</label>
+      <input type="text" name="artist" required title = "Please include a valid Artist"
+      placeholder="Artist"  >
+    </div>
+    
+    <div class="field">
+      <label>Year</label>
+      <input type="text" name="year" required title = "Please include a valid Year"
+      placeholder="Year"  >
+    </div>
+  </div>
+  <button class="ui submit button mySubmit">Add Artwork</button>
+</form>

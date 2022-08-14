@@ -1,0 +1,13 @@
+{{#each galleries}}
+  <section class="ui tall stacked segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    <a href="/gallery/{{id}}" class="ui icon button">
+      <i class="icon search"></i>
+    </a>
+    <a href="/dashboard/deletegallery/{{id}}" class="ui icon button">
+      <i class="icon trash alternate outline"></i>
+    </a>
+  </section>
+{{/each}}

@@ -1,0 +1,31 @@
+<nav class="ui labeled icon menu">
+  <header class="ui header item"> 
+    <a id="title" href="/start"> 
+      <i class="university icon"></i>
+      MyGallery
+    </a>
+    
+  </header>
+  
+  <div class="right menu">
+     <span class="name">{{fullname}}</span>
+      <span><img src="{{picture}}" class="ui avatar image"></span>
+    <a id="dashboard" class="item" href="/dashboard"> 
+      Galleries
+    </a>
+    <a id="logout" class="item" href="https://mygalleryv3.glitch.me"> 
+      Sign Out
+    </a>
+    <a id="about" class="item" href="/about"> 
+      About
+    </a>
+  </div>
+  
+  
+  
+  
+</nav>
+
+<script>
+  $("#{{id}}").addClass("active item");
+</script>

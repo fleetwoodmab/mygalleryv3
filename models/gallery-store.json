@@ -1,0 +1,74 @@
+{
+  "galleryCollection": [
+    {},
+    {
+      "id": "24250f9e-1203-4601-8118-a3987f3984c2",
+      "userid": "9184ebe3-defa-4712-a5a7-0db92907f1f3",
+      "title": "First Gall",
+      "art": [
+        {
+          "id": "fb039b1d-c40d-4b2c-9b7e-ae65d46d39af",
+          "pic": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fineartamerica.com%2Fimages%2Fartworkimages%2Fmediumlarge%2F3%2Fthe-kiss-circa-1897-edvard-munch.jpg&f=1&nofb=1",
+          "title": "the kiss",
+          "artist": "munch",
+          "year": "1897"
+        }
+      ]
+    },
+    {
+      "id": "924ba51b-a880-4224-9a99-88049509c134",
+      "userid": "6bde8279-cd00-4c97-be90-59931a1203c6",
+      "title": "G1",
+      "art": [
+        {
+          "id": "0c79dab7-5322-48df-8655-236ea57ef13e",
+          "pic": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Edvard_Munch_-_The_Kiss_-_Google_Art_Project.jpg",
+          "title": "The kiss",
+          "artist": "munch",
+          "year": "1817"
+        }
+      ]
+    },
+    {
+      "id": "03d66cd7-0c77-4834-b670-01304c4c33ba",
+      "userid": "b7cfba58-71dd-4941-935d-6933366b5e2f",
+      "title": "Gal1",
+      "art": [
+        {
+          "id": "0cf2215b-0de0-4d17-9bf2-472d2313f612",
+          "pic": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.d7-VJh05ApEVv9C4x3IX-QHaKB%26pid%3DApi&f=1",
+          "title": "La Joconde",
+          "artist": "Da Vinci",
+          "year": "1600"
+        }
+      ]
+    },
+    {
+      "id": "e91d93c5-53ea-44df-8969-8505756f8ced",
+      "userid": "afe09cdd-8fab-40c7-850b-951be49d6e6d",
+      "title": "One",
+      "art": []
+    },
+    {
+      "id": "70f75176-92a3-4e79-b8b7-c40076667172",
+      "userid": "d23b4c83-3aca-4ddd-ae8c-839547c9024e",
+      "title": "One",
+      "art": [
+        {
+          "id": "7bec1d4b-6f87-434b-ad50-97452d905f4e",
+          "pic": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.hxx2PCM1K0qRiAluzRjAgwHaJf%26pid%3DApi&f=1",
+          "title": "The Scream",
+          "artist": "Munch",
+          "year": "Idk"
+        },
+        {
+          "id": "566d54b6-c2a9-4643-aed8-5a42e41597f6",
+          "pic": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.hxx2PCM1K0qRiAluzRjAgwHaJf%26pid%3DApi&f=1",
+          "title": "The Scream",
+          "artist": "Munch",
+          "year": "Idk"
+        }
+      ]
+    }
+  ]
+}

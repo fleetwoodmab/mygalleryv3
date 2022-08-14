@@ -1,0 +1,53 @@
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th class="two wide">Picture</th>
+      <th class="two wide">Title</th>
+      <th class="two wide">Artist</th>
+      <th class="two wide">Year</th>
+      <th class="one wide"></th>
+    </tr>
+  </thead>
+<tbody>
+    {{#each gallery.art}}
+    <form class = "ui stacked segment form" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui fluid image">
+         <img src="{{pic}}" name="picture">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+         <input type="text" name="title" required title = "Please include a valid Title" placeholder="Title" value = "{{title}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="artist" required title = "Please include a valid Artist" placeholder="Artist" value = "{{artist}}">
+        </span>
+      </td>
+    
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="year" required title = "Please enter a valid year" placeholder="Year" value = "{{year}}">
+        </span>
+      </td>
+      <td class="center aligned">
+        <a href="/gallery/{{../gallery.id}}/deleteArt/{{id}}" class="ui icon button delart">
+          <i class="ui trash icon"></i>
+        </a>
+      </td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui button mySubmit" id="rateit">
+  Rate it! <i class="star icon"></i>
+</button>
