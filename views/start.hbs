@@ -1,0 +1,62 @@
+{{> menu}}
+
+<section class="ui container">
+      
+      <section class="ui one column grid segment">
+        <!-- this is the start of content -->
+        <div class="ui column">
+          <title>{{title}}</title>
+          <h3 class="ui header">
+            Welcome to MyGallery, {{fullname}}!
+          </h3>
+          <p>Create your own personal galleries !</p>
+        </div>
+        
+        
+        <section class="ui grid">
+          <div class="six-columns">
+          <img style="width: 30%; margin-top:15px;" src="https://images.unsplash.com/photo-1609811692040-35b06faddb8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="">
+          </div>
+          
+          <div class="buttons">
+          <button id="more" class="ui button">
+            Read more <i class="arrow circle right icon"></i>
+          </button>
+          <button id="like" class="ui button">
+            Like it? <i class="thumbs up icon"></i>
+          </button>
+        </div>
+        
+        <div id="readmore" class="ui message">
+          <p>
+            You can add anything, sculpture, paintings, installations, photography...
+          </p>
+          <p>
+            This project was made as part of my webapp development module, I hope you enjoy it :)
+          </p>
+        </div>
+        
+        <div id="welcomeuser" class="ui message"> </div>
+      
+          <h3 class="ui center aligned header">YourGallery now contains:</h3>
+<div class="ui two statistics">
+    <div class="ui medium statistic">
+        <div id="left" class="value">
+            {{totalGalleries}}
+        </div>
+        <div id="left" class="label">
+            Galleries
+        </div>
+    </div>
+    <div class="ui medium statistic">
+        <div id="right" class="value">
+            {{totalArt}}
+        </div>
+        <div id="right" class="label">
+            Artworks
+        </div>
+    </div>
+</div>
+        </section>
+      </section>
+    </section>

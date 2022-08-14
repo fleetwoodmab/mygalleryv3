@@ -1,0 +1,181 @@
+/* General */
+#title {
+  color: #2b709a;
+  font-family: "Georgia", serif;
+}
+
+.ui.menu {
+  border-radius: 18rem;
+}
+
+.ui.menu .item:before {
+  background-color: #ffffff;
+}
+
+h3.ui.header {
+  font-weight: bold;
+}
+
+h2.ui.header {
+  color:#7ca3df;
+}
+
+.ui.form .field > label {
+font-weight: normal;
+}
+
+.name {
+  padding-top: 20px;
+  padding-right: 8px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color:#d1a466;
+}
+
+.ui.grid {
+  text-align: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
+}
+
+.ui.grid > .ui.grid:last-child {
+  margin-bottom: 1em;
+}
+
+.ui.tall.stacked.segment {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  margin: 1rem;
+  font-family: serif;
+  line-height: 1.5;
+  background-color: #e0d9d1;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+img.ui.image {
+  display: inline !important;
+  margin-top: 1em;
+}
+
+a {
+  color: #3e0a01;
+}
+
+div.ui:nth-child(6) {
+  margin-bottom: 0px;
+ }
+ 
+
+/* Placement */
+
+#left {
+  margin-left: 50%;
+}
+
+#right {
+  margin-right: 50%;
+}
+
+/* Buttons */
+
+#signup, #login, #dashboard, #about, #logout {
+  padding-top: 25px;
+}
+
+#more {
+  background: #9abae7;
+}
+
+#like {
+  background: #d1a466;
+}
+
+#readmore {
+  display: none;
+}
+
+#welcomeuser {
+  display: none;
+}
+
+#rateit {
+  color: #ffffff;
+  background-color: #d1a466;
+}
+
+.ui.submit.button.mySubmit {
+  color: #ffffff;
+  background-color: #a3bee8;
+}
+
+.ui.icon.button.delart {
+  color: #ffffff;
+  background-color: #d1a466;
+}
+
+.ui.menu a.item:hover {
+  background: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.buttons {
+  display: inline-block;
+  margin: 1em;
+}
+
+.ui.button {
+  font-family: serif;
+  font-weight: normal;
+}
+
+.ui.header {
+  font-family: serif;
+}
+
+.ui.menu .header.item,
+.ui.vertical.menu .header.item {
+  font-weight: normal;
+}
+
+.ui.icon.menu .item {
+  text-align: center;
+  color: #7ca3df;
+}
+
+.ui.menu .active.item {
+  background: none;
+}
+
+.ui.menu .active.item:hover,
+.ui.vertical.menu .active.item:hover,
+.ui.link.menu .item:hover,
+.ui.menu .dropdown.item:hover,
+.ui.menu .link.item:hover,
+.ui.menu a.item:hover {
+  color: #adc6eb;
+  background: none;
+}
+
+

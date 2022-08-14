@@ -1,0 +1,21 @@
+{
+  "users": [
+    {},
+    {
+      "firstName": "Sad",
+      "lastName": "Bob",
+      "email": "sadbob@g.com",
+      "password": "SADbob88*-",
+      "id": "afe09cdd-8fab-40c7-850b-951be49d6e6d",
+      "picture": "http://res.cloudinary.com/mabwit/image/upload/v1660504051/igp1gcfy0ecb4ikanidw.jpg"
+    },
+    {
+      "firstName": "Ma",
+      "lastName": "Ba",
+      "email": "maba@wit.ie",
+      "password": "Mab88*-",
+      "id": "d23b4c83-3aca-4ddd-ae8c-839547c9024e",
+      "picture": "http://res.cloudinary.com/mabwit/image/upload/v1660505834/korazeca4vut82c40xwr.jpg"
+    }
+  ]
+}
